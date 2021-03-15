@@ -10,7 +10,7 @@ import org.apache.logging.log4j.Logger;
 import org.springframework.stereotype.Component;
 
 @Component
-public class SendGetRequest implements SendGetRequestInterface{
+public class SendGetRequest implements SendGetRequestInterface {
     private static final Logger logger = LogManager.getLogger();
 
     public SendGetRequest(){
